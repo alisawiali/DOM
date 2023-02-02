@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(169, 246, 220);
+
+}
+
+.parent{
+    background-color: aqua;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+ 
+}
+
+.main{
+    width: 80%;
+    height: 50%;
+    background-color: rgb(89, 154, 132);
+    padding: 1rem;
+    color: #fff;
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 5px 10px 20px  10px#ffff;
+    overflow: scroll;
+    border-radius: 5px;
+}
